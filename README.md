@@ -11,6 +11,11 @@ In this challenge, you will build a python application server for machine learni
 * Input Image and result for the input must be logged in database. You can save image on file system or google cloud and only store reference on database and stored image must be encrypted.
 * Dockerize the application server.
 
+### Hosting
+
+* Please use your own Digital Ocean or AWS servers to do the deployment and url for us to test.
+* If you have trouble getting a working DO / AWS accounts, let us know in advance.
+
 ## Resource
 
 * Machine Learning Server Api: <https://hub.docker.com/repository/docker/yyhtoon/mnet-serving>
@@ -39,7 +44,11 @@ In this challenge, you will build a python application server for machine learni
         ```
         {'predictions': [332]}
         ```
-
 ## Note
 
 * We suggest you to use fastapi framework if you feel confortable with it.
+* For better impression, you are not limited to implement followings in the project:
+    * Monitoring of api service
+    * Logging input/ouputs
+    * Performance oriented server setups / configuration
+    * Good choice of Database
